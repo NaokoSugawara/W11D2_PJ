@@ -10,12 +10,9 @@ function Greenhouse() {
 
   const {themeName} = useTheme();
   // debugger 
+  
   let img = '';
-  if ( themeName === 'day' ) {
-    img = dayImage
-  } else {
-    img = nightImage
-  }
+  themeName === 'day' ? img = dayImage : img = nightImage
 
   return (
     <section>
