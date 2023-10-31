@@ -12,9 +12,9 @@ function Greenhouse() {
   // debugger 
   let img = '';
   if ( themeName === 'day' ) {
-    img = 'dayImage';
+    img = dayImage
   } else {
-    img = 'nightImage';
+    img = nightImage
   }
 
   return (

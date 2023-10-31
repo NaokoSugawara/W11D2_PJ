@@ -1,5 +1,5 @@
 import './LightSwitch.css';
-
+import { useTheme } from '../../context/ThemeContext';
 function LightSwitch() {
   return (
     <div className="light-switch day">
